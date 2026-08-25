@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * qn1
  */
-public class qn1 {
+public class input {
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);//input data from user 
 
