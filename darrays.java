@@ -5,10 +5,7 @@ public class darrays {
 
     public static void main(String[] args) {
 
-        // Declaration and allocation
-        int[][] arr = new int[3][4];
-
-        // Initialization
+        // Jagged 2D array
         int[][] brr = {
             {1, 2},
             {2, 3, 4},
@@ -19,10 +16,10 @@ public class darrays {
         // Number of rows
         int rowLength = brr.length;
 
-        // Traversing the 2D array
-        for (int row = 0; row <= rowLength - 1; row++) {
+        // Traversing the jagged array
+        for (int row = 0; row < rowLength; row++) {
 
-            for (int col = 0; col <= brr[row].length - 1; col++) {
+            for (int col = 0; col < brr[row].length; col++) {
                 System.out.print(brr[row][col] + " ");
             }
 
